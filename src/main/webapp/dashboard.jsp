@@ -34,7 +34,7 @@
 	}else{
 		try {
 			Class.forName("com.mysql.cj.jdbc.Driver");
-			Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/project_e","root","W7301@jqir#");
+			Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/project_e","root","tanisha@2005");
 			String sql="SELECT Fullname,Username, ContactNo FROM register WHERE Username=?";
 			PreparedStatement stmt=con.prepareStatement(sql);
 			stmt.setString(1,  user);

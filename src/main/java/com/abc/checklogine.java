@@ -33,10 +33,10 @@ public class checklogine extends HttpServlet {
 		String username=request.getParameter("username");
 		String pwd=request.getParameter("pwd");
 		if(username != null || pwd != null) { 
-			RequestDispatcher dispatcher=null;
+			/*RequestDispatcher dispatcher=null;*/
 			try {
 				Class.forName("com.mysql.cj.jdbc.Driver");
-				Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/project_e","root","W7301@jqir#");
+				Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/project_e","root","tanisha@2005");
 				String sql="SELECT * FROM login WHERE Username=? AND Password=?";
 				PreparedStatement stmt=con.prepareStatement(sql);
 				stmt.setString(1,  username);
@@ -64,3 +64,4 @@ public class checklogine extends HttpServlet {
 }
 	}
 }
+			

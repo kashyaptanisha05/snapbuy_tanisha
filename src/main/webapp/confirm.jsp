@@ -20,7 +20,7 @@ String selectedQuantity = request.getParameter("selectedQuantity");
 
 String url = "jdbc:mysql://localhost:3306/project_e";
 String username = "root";
-String password = "W7301@jqir#";
+String password = "tanisha@2005";
 
 Connection conn = null;
 PreparedStatement pst = null;
