@@ -28,4 +28,4 @@ SnapBuy is a sleek and user-friendly e-commerce website designed to provide cust
 
 **Tanisha Kumari**:  UI, frontend development.
 
-**Vinisha Victor**:  Frontend development and User interface design.
+**Vinisha Victor**:  Frontend development and User Interface design.
