@@ -1,0 +1,1 @@
+The E-Commerce website 'SNAPBUY' is a web-based shopping platform designed to show case you all and let you introduce to the new fashion sense as well as trending household appliances, Electronics etc.
